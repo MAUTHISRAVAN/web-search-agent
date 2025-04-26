@@ -1,0 +1,8 @@
+from dotenv import load_dotenv
+import os
+from src.agent import WebResearchAgent
+
+load_dotenv(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)
+
+agent = WebResearchAgent(api_key=os.getenv(""))
+results = agent.conduct_research("What are the latest developments in quantum computing?")
