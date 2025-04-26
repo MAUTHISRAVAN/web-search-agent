@@ -1,0 +1,18 @@
+.
+├── .env
+├── requirements.txt
+├── src/
+│   ├── __init__.py
+│   ├── agent.py
+│   ├── tools/
+│   │   ├── __init__.py
+│   │   ├── search_tool.py
+│   │   ├── scraper_tool.py
+│   │   ├── analyzer_tool.py
+│   │   └── news_tool.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+└── tests/
+    ├── __init__.py
+    └── test_agent.py
