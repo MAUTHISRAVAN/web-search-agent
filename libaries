@@ -1,0 +1,1 @@
+pip install langchain requests beautifulsoup4 openai python-dotenv
